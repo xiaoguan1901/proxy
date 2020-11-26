@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<entry>
+		<key>/_layouts/IMPOAWebUI/OA/SendDoc/AddFWGZ.aspx</key>
+		<route id="1">
+			<uri>/_layouts/IMPOAWebUI/OA/SendDoc/AddFWGZ.aspx</uri>
+			<formList>
+				<form id="1">
+					<name>myform</name>
+					<action>/form</action>
+					<type>post</type>
+				</form>
+				<form id="2">
+					<name>myform2</name>
+					<action>/form2</action>
+					<type>post</type>
+				</form>
+			</formList>
+			<aLinkList>
+				<alink id="1">
+					<name>A1</name>
+					<href>http://localhost</href>
+					<target>_self</target>
+				</alink>
+				<alink id="2">
+					<name>A2</name>
+					<href>http://localhost</href>
+					<target>_self</target>
+				</alink>
+			</aLinkList>
+			<className>com.ss</className>
+		</route>
+	</entry>
+</map>
